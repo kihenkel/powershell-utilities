@@ -1,7 +1,7 @@
 # powershell-utilities
 A PowerShell file that contains some useful functions.
 
-## How to start
+## How to install
 In order to use this you have to copy the `profile.ps1` file into:
 
 - `C:\Windows\System32\WindowsPowerShell\v1.0` (for 32bit)
@@ -11,6 +11,8 @@ Alternatively you can create a symbolic link:
 
 - `mklink C:\Windows\System32\WindowsPowerShell\v1.0\profile.ps1 C:\Path\To\This\Repository\src\profile.ps1` (for 32bit)
 - `mklink C:\Windows\SysWOW64\WindowsPowerShell\v1.0\profile.ps1 C:\Path\To\This\Repository\src\profile.ps1` (for 64bit)
+
+(add `cmd /c` to the front if you're using PowerShell to make the symbolic link)
 
 ## Commands
 - `gogo` - Runs your node application with `npm run serve`
